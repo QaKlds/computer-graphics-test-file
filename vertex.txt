@@ -1,0 +1,5 @@
+uniform mat4 uMVP;
+
+void main() {
+	gl_Position = uMVP * vec4(aPOS, 1.0);
+}
